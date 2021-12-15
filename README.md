@@ -6,16 +6,48 @@
   <a href="https://npmjs.org/package/babel-plugin-react-native"><img src="https://img.shields.io/npm/v/babel-plugin-react-native.svg?style=flat-square"></a>
 </p>
 
+## Features
+
+This plugin was created to allow tree-shaking when building for multiple react-native platforms.
+
 ## Install
 
 ```bash
-npm install --save babel-plugin-react-native
+npm install --save-dev --save-exact babel-plugin-react-native
+```
+
+## Example
+
+Source:
+
+```js
+import { Platform } from 'react-native';
+
+if (Platform.OS === 'web') {
+  console.log('web');
+} else {
+  console.log('not web');
+}
+```
+
+Transformed to (with `OS: "web"`):
+
+```js
+if ('web' === 'web') {
+  console.log('web');
+} else {
+  console.log('not web');
+}
 ```
 
 ## Usage
 
-```js
-import babelPluginReactNative from 'babel-plugin-react-native';
+### Via `babel.config.json`
 
-console.log(babelPluginReactNative);
+```json
+{
+  "plugins": [
+    ["babel-plugin-styled-components-react-native-web", { "OS": "web" }]
+  ]
+}
 ```

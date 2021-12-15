@@ -52,13 +52,18 @@
     "testEnvironment": "node"
   },
   "pob": {},
+  "dependencies": {
+    "nightingale-logger": "^12.0.1"
+  },
   "devDependencies": {
+    "@babel/core": "7.16.5",
     "@pob/commitlint-config": "4.0.0",
     "@pob/eslint-config": "48.0.5",
     "@pob/root": "6.1.5",
     "@types/jest": "27.0.3",
     "eslint": "8.4.1",
-    "jest": "27.4.4",
+    "jest": "27.4.5",
+    "nightingale-unit-testing": "12.1.0",
     "pob-lcov-reporter": "6.0.0",
     "prettier": "2.5.1"
   }
