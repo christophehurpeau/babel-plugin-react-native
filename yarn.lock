@@ -669,7 +669,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/core@npm:^27.4.4, @jest/core@npm:^27.4.5":
+"@jest/core@npm:^27.4.5":
   version: 27.4.5
   resolution: "@jest/core@npm:27.4.5"
   dependencies:
@@ -1494,7 +1494,7 @@ __metadata:
     "@pob/root": 6.1.5
     "@types/jest": 27.0.3
     eslint: 8.4.1
-    jest: 27.4.4
+    jest: 27.4.5
     pob-lcov-reporter: 6.0.0
     prettier: 2.5.1
   languageName: unknown
@@ -3561,7 +3561,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-cli@npm:^27.4.4":
+"jest-cli@npm:^27.4.5":
   version: 27.4.5
   resolution: "jest-cli@npm:27.4.5"
   dependencies:
@@ -4000,13 +4000,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:27.4.4":
-  version: 27.4.4
-  resolution: "jest@npm:27.4.4"
+"jest@npm:27.4.5":
+  version: 27.4.5
+  resolution: "jest@npm:27.4.5"
   dependencies:
-    "@jest/core": ^27.4.4
+    "@jest/core": ^27.4.5
     import-local: ^3.0.2
-    jest-cli: ^27.4.4
+    jest-cli: ^27.4.5
   peerDependencies:
     node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
   peerDependenciesMeta:
@@ -4014,7 +4014,7 @@ __metadata:
       optional: true
   bin:
     jest: bin/jest.js
-  checksum: 0af09bd42c1ecef555dbc4a8cdd2b77b4bfff9ab3d7d2ee01e343067f443eb5743c7acdf2f28e8d2d268c8e058b129c79b1eda99d7c8b06a6a0e9e1fd04cb741
+  checksum: 57ee4be68650dd1f89e077cca48813d824779a07626e84178c672727ace1ef3cd489f124a27dc02b88601774413330e6d35080b11919efa6460ee61d378c6610
   languageName: node
   linkType: hard
 
