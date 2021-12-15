@@ -46,8 +46,6 @@ if ('web' === 'web') {
 
 ```json
 {
-  "plugins": [
-    ["babel-plugin-styled-components-react-native-web", { "OS": "web" }]
-  ]
+  "plugins": [["babel-plugin-react-native", { "OS": "web" }]]
 }
 ```
