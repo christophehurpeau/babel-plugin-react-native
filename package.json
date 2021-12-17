@@ -58,7 +58,7 @@
     "@pob/eslint-config": "48.0.5",
     "@pob/root": "6.1.5",
     "@types/jest": "27.0.3",
-    "eslint": "8.4.1",
+    "eslint": "8.5.0",
     "jest": "27.4.5",
     "nightingale-unit-testing": "12.1.0",
     "pob-lcov-reporter": "6.0.0",
