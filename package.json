@@ -52,11 +52,14 @@
     "testEnvironment": "node"
   },
   "pob": {},
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  },
   "devDependencies": {
     "@babel/core": "7.16.7",
     "@pob/commitlint-config": "4.1.0",
     "@pob/eslint-config": "48.0.5",
-    "@pob/root": "6.2.1",
+    "@pob/root": "6.3.2",
     "@types/jest": "27.4.0",
     "eslint": "8.6.0",
     "jest": "27.4.5",
