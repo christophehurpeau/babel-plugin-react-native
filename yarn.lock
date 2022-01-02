@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.16.7, @babel/core@npm:^7.1.0, @babel/core@npm:^7.12.16, @babel/core@npm:^7.12.3, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
+"@babel/core@npm:^7.1.0, @babel/core@npm:^7.12.16, @babel/core@npm:^7.12.3, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
   version: 7.16.7
   resolution: "@babel/core@npm:7.16.7"
   dependencies:
@@ -1555,7 +1555,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "babel-plugin-react-native@workspace:."
   dependencies:
-    "@babel/core": 7.16.7
     "@pob/commitlint-config": 4.1.0
     "@pob/eslint-config": 48.0.5
     "@pob/root": 6.3.0
