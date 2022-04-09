@@ -1570,7 +1570,6 @@ __metadata:
     eslint: 8.13.0
     jest: 27.5.1
     nightingale-unit-testing: 12.1.0
-    prettier: 2.6.2
   peerDependencies:
     "@babel/core": ^7.0.0
   languageName: unknown
