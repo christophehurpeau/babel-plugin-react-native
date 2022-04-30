@@ -60,7 +60,7 @@
     "@babel/core": "7.17.10",
     "@pob/commitlint-config": "4.2.0",
     "@pob/eslint-config": "49.1.0",
-    "@pob/root": "6.18.0",
+    "@pob/root": "6.18.1",
     "@types/jest": "27.4.1",
     "eslint": "8.14.0",
     "jest": "28.0.3",
