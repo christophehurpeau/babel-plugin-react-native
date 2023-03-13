@@ -4,6 +4,10 @@
 
 <p align="center">
   <a href="https://npmjs.org/package/babel-plugin-react-native"><img src="https://img.shields.io/npm/v/babel-plugin-react-native.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/babel-plugin-react-native"><img src="https://img.shields.io/npm/dw/babel-plugin-react-native.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/babel-plugin-react-native"><img src="https://img.shields.io/node/v/babel-plugin-react-native.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/babel-plugin-react-native"><img src="https://img.shields.io/npm/types/babel-plugin-react-native.svg?style=flat-square"></a>
+  <a href="https://codecov.io/gh/christophehurpeau/babel-plugin-react-native"><img src="https://img.shields.io/codecov/c/github/christophehurpeau/babel-plugin-react-native/master.svg?style=flat-square"></a>
 </p>
 
 ## Features
