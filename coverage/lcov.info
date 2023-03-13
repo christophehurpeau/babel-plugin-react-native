@@ -121,7 +121,7 @@ SF:lib/__tests_fixtures__/import-with-other-named.js
 FNF:0
 FNH:0
 DA:3,1
-DA:13,1
+DA:12,1
 LF:2
 LH:2
 BRF:0
@@ -155,7 +155,7 @@ SF:lib/__tests_fixtures__/simple-used-for-something-else.js
 FNF:0
 FNH:0
 DA:3,1
-DA:14,1
+DA:13,1
 LF:2
 LH:2
 BRF:0
