@@ -21,7 +21,6 @@
     "lib"
   ],
   "scripts": {
-    "clean:build": "true",
     "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
     "lint": "yarn run lint:prettier && yarn run lint:eslint",
     "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet *.{js,cjs,mjs} lib",
@@ -44,7 +43,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.23.5",
-    "@pob/commitlint-config": "6.2.0",
+    "@pob/commitlint-config": "6.3.0",
     "@pob/eslint-config": "51.2.0",
     "@pob/root": "8.9.1",
     "@types/jest": "29.5.11",
