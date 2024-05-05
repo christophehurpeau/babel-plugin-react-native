@@ -25,22 +25,22 @@ npm install --save-dev --save-exact babel-plugin-react-native
 Source:
 
 ```js
-import { Platform } from 'react-native';
+import { Platform } from "react-native";
 
-if (Platform.OS === 'web') {
-  console.log('web');
+if (Platform.OS === "web") {
+  console.log("web");
 } else {
-  console.log('not web');
+  console.log("not web");
 }
 ```
 
 Transformed to (with `OS: "web"`):
 
 ```js
-if ('web' === 'web') {
-  console.log('web');
+if ("web" === "web") {
+  console.log("web");
 } else {
-  console.log('not web');
+  console.log("not web");
 }
 ```
 
