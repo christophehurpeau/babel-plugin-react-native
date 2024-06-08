@@ -3,7 +3,11 @@
   "extends": ["@pob/eslint-config/node-commonjs"],
   "overrides": [
     {
-      "files": ["**/*.test.{mjs,js}", "__tests__/**/*.{mjs,js}"],
+      "files": [
+        "**/*.test.{mjs,js}",
+        "__tests__/**/*.{mjs,js}",
+        "**/__mocks__/**/*.{mjs,js}"
+      ],
       "env": {
         "jest": true
       },
