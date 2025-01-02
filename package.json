@@ -7,7 +7,7 @@
   "repository": "https://github.com/christophehurpeau/babel-plugin-react-native.git",
   "homepage": "https://github.com/christophehurpeau/babel-plugin-react-native",
   "type": "commonjs",
-  "packageManager": "yarn@4.4.0",
+  "packageManager": "yarn@4.6.0",
   "engines": {
     "node": ">=18.12.0"
   },
