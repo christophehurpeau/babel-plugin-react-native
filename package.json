@@ -48,7 +48,7 @@
     "@pob/commitlint-config": "9.1.0",
     "@pob/eslint-config": "59.6.0",
     "@pob/root": "16.3.1",
-    "eslint": "9.19.0",
+    "eslint": "9.22.0",
     "nightingale-unit-testing": "12.1.4"
   }
 }
