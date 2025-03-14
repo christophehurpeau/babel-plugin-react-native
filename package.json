@@ -49,6 +49,6 @@
     "@pob/eslint-config": "59.8.0",
     "@pob/root": "16.8.0",
     "eslint": "9.22.0",
-    "nightingale-unit-testing": "12.1.4"
+    "nightingale-unit-testing": "15.0.0"
   }
 }
