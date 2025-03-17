@@ -7,7 +7,7 @@
   "repository": "https://github.com/christophehurpeau/babel-plugin-react-native.git",
   "homepage": "https://github.com/christophehurpeau/babel-plugin-react-native",
   "type": "commonjs",
-  "packageManager": "yarn@4.6.0",
+  "packageManager": "yarn@4.7.0",
   "engines": {
     "node": ">=20.9.0"
   },
@@ -47,7 +47,7 @@
     "@babel/core": "7.26.10",
     "@pob/commitlint-config": "9.1.2",
     "@pob/eslint-config": "59.8.0",
-    "@pob/root": "16.8.0",
+    "@pob/root": "16.9.0",
     "eslint": "9.22.0",
     "nightingale-unit-testing": "12.1.4"
   }
