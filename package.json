@@ -7,7 +7,7 @@
   "repository": "https://github.com/christophehurpeau/babel-plugin-react-native.git",
   "homepage": "https://github.com/christophehurpeau/babel-plugin-react-native",
   "type": "commonjs",
-  "packageManager": "yarn@4.6.0",
+  "packageManager": "yarn@4.7.0",
   "engines": {
     "node": ">=20.9.0"
   },
@@ -26,7 +26,9 @@
     "lint:eslint": "eslint --quiet .",
     "lint:prettier": "pob-root-prettier --check .",
     "lint:prettier:fix": "pob-root-prettier --write .",
-    "postinstallDev": "pob-root-postinstall",
+    "postinstall": "pob-root-postinstall",
+    "postpack": "pinst --enable",
+    "prepack": "pinst --disable",
     "test": "node --test lib/**/*.test.js",
     "test:coverage": "npx c8 --all --src ./lib node --test lib/**/*.test.js",
     "test:coverage:json": "npx c8 --reporter=json --all --src ./lib node --test lib/**/*.test.js",
@@ -49,6 +51,7 @@
     "@pob/eslint-config": "59.8.0",
     "@pob/root": "17.0.0",
     "eslint": "9.22.0",
-    "nightingale-unit-testing": "12.1.4"
+    "nightingale-unit-testing": "12.1.4",
+    "pinst": "3.0.0"
   }
 }
